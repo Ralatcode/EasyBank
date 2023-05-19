@@ -8,6 +8,12 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+@media (max-width: 480px) {
+    .container {
+        max-width: 90vw;
+    }
+}
+
 .menu, .menu::before, .menu::after {
     display: block;
     width: 1.5rem;

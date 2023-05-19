@@ -567,10 +567,6 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -581,6 +577,12 @@ video {
 
 body {
   font-family: 'Public Sans', sans-serif;
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 90vw;
+  }
 }
 
 .menu, .menu::before, .menu::after {
