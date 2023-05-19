@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <div class="container flex items-center justify-between pt-4 mx-auto">
+    <header class="relative z-30 bg-White">
+        <!-- Header  -->
+        <div class="container flex items-center justify-between py-4 mx-auto">
             <img src="./guide/easybank-landing-page-master/images/logo.svg" alt="Company Logo">
             
             <nav>
@@ -21,12 +22,34 @@
                     <li><a href="#">Careers</a></li>
                 </ul>
             </nav>
-
+            <!-- mobile menu switch -->
             <div class="menu-div">
                 <span class="menu"></span>
             </div>
         </div>
     </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="bg-[url('/guide/easybank-landing-page-master/images/bg-intro-mobile.svg')] bg-no-repeat bg-contain">
+            <div class="">
+                <img src="./guide/easybank-landing-page-master/images/image-mockups.png" class="relative bottom-[140px] z-10" alt="background-intro-mobile">
+            </div>
+
+            <div class="mt-[-80px]">
+                <h2 class="">
+                    Next generation digital banking
+                </h2>
+                <p class="">
+                    Take your financial life online. Your Easybank account will be a
+                    one-stop-shop for spending, saving, budgeting, investing, and much more.
+                </p>
+                <button>
+                    Request invite
+                </button>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>

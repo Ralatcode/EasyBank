@@ -550,9 +550,137 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.bottom-\[50px\] {
+  bottom: 50px;
+}
+
+.bottom-\[150px\] {
+  bottom: 150px;
+}
+
+.bottom-\[100px\] {
+  bottom: 100px;
+}
+
+.bottom-\[130px\] {
+  bottom: 130px;
+}
+
+.bottom-\[120px\] {
+  bottom: 120px;
+}
+
+.bottom-\[125px\] {
+  bottom: 125px;
+}
+
+.bottom-\[128px\] {
+  bottom: 128px;
+}
+
+.top-\[-7rem\] {
+  top: -7rem;
+}
+
+.bottom-\[7rem\] {
+  bottom: 7rem;
+}
+
+.bottom-\[7\.5rem\] {
+  bottom: 7.5rem;
+}
+
+.bottom-\[7\.75rem\] {
+  bottom: 7.75rem;
+}
+
+.bottom-\[8rem\] {
+  bottom: 8rem;
+}
+
+.bottom-\[140px\] {
+  bottom: 140px;
+}
+
+.top-\[-140px\] {
+  top: -140px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-\[130px\] {
+  top: 130px;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.z-\[1\] {
+  z-index: 1;
+}
+
+.z-\[5\] {
+  z-index: 5;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-\[130px\] {
+  margin-bottom: 130px;
+}
+
+.mb-\[-130px\] {
+  margin-bottom: -130px;
+}
+
+.mt-\[-130px\] {
+  margin-top: -130px;
+}
+
+.mt-\[-120px\] {
+  margin-top: -120px;
+}
+
+.mt-\[-100px\] {
+  margin-top: -100px;
+}
+
+.mt-\[-800px\] {
+  margin-top: -800px;
+}
+
+.mt-\[-80px\] {
+  margin-top: -80px;
 }
 
 .flex {
@@ -563,12 +691,42 @@ video {
   display: none;
 }
 
+.min-h-\[390px\] {
+  min-height: 390px;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.bg-White {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/guide\/easybank-landing-page-master\/images\/bg-intro-mobile\.svg\'\)\] {
+  background-image: url('/guide/easybank-landing-page-master/images/bg-intro-mobile.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pt-4 {
