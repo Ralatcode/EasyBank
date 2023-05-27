@@ -818,6 +818,11 @@ video {
   background-color: hsl(220 16% 96% / var(--tw-bg-opacity));
 }
 
+.bg-DarkBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/guide\/easybank-landing-page-master\/images\/bg-intro-mobile\.svg\'\)\] {
   background-image: url('/guide/easybank-landing-page-master/images/bg-intro-mobile.svg');
 }
