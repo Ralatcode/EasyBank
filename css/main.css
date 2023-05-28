@@ -675,6 +675,11 @@ video {
   margin-bottom: 4rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-\[130px\] {
   margin-bottom: 130px;
 }
@@ -743,6 +748,10 @@ video {
   margin-top: 4rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -785,6 +794,10 @@ video {
 
 .max-w-\[85vw\] {
   max-width: 85vw;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
