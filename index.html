@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="relative z-30 bg-White">
+    <header class="relative z-[99] bg-White">
       <!-- Header  -->
       <div class="container mx-auto flex items-center justify-between py-4">
         <img
@@ -16,13 +16,13 @@
           alt="Company Logo"
         />
 
-        <nav>
-          <ul class="hidden">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Careers</a></li>
+        <nav class="absolute top-full left-0 w-full min-h-screen bg-[rgba(0,0,0,0.6)] text-center z-10">
+          <ul class="relative bg-White top-full left-1/2 -translate-x-1/2 w-[80vw] mt-4 p-6 rounded-lg">
+            <li><a href="#" class="text-base text-gray-800">Home</a></li>
+            <li class="mt-4 text-base text-gray-800"><a href="#">About</a></li>
+            <li class="mt-4 text-base text-gray-800"><a href="#">Contact</a></li>
+            <li class="mt-4 text-base text-gray-800"><a href="#">Blog</a></li>
+            <li class="mt-4 text-base text-gray-800"><a href="#">Careers</a></li>
           </ul>
         </nav>
         <!-- mobile menu switch -->
@@ -40,7 +40,7 @@
         <div class="">
           <img
             src="./guide/easybank-landing-page-master/images/image-mockups.png"
-            class="relative bottom-[140px] z-10"
+            class="relative bottom-[140px] z-[1]"
             alt="background-intro-mobile"
           />
         </div>
