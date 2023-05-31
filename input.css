@@ -28,7 +28,7 @@ body {
 
 .menu::before, .menu::after {
     content: '';
-    position: absolute
+    position: absolute;
 }
 
 .menu::before {
