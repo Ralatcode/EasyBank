@@ -914,6 +914,7 @@ body {
   height: 2px;
   background-color: black;
   border-radius: 5px;
+  transition: all ease-in-out 150ms;
 }
 
 .menu {
@@ -931,4 +932,18 @@ body {
 
 .menu::after {
   top: 5px;
+}
+
+.menu-div.open > .menu {
+  background-color: transparent;
+}
+
+.menu-div.open > .menu::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+.menu-div.open > .menu::after {
+  top: 0;
+  transform: rotate(-45deg);
 }
