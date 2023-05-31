@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+@layer utilities {
+    .unset-all {
+        all: unset;
+    }
+}
+
 body {
     font-family: 'Public Sans', sans-serif;
 }
@@ -59,5 +65,5 @@ body {
 }
 
 .menu-div.open ~ nav > ul {
-    @apply opacity-full;
+    @apply opacity-100;
 }
