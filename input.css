@@ -53,3 +53,11 @@ body {
     top: 0;
     transform: rotate(-45deg);
 }
+
+.menu-div.open ~ nav {
+  @apply scale-y-100;  
+}
+
+.menu-div.open ~ nav > ul {
+    @apply opacity-full;
+}
