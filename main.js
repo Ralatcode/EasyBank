@@ -10,7 +10,9 @@ window.addEventListener('resize', ()=> {
     if (window.innerWidth >= 768) {
         menuNav.classList.remove('mobile-nav');
         menu_ul.classList.remove('mobile-ul');
+        menu_ul.classList.add('md-ul');
     } else {
+        menu_ul.classList.remove('md-ul');
         menuNav.classList.add('mobile-nav');
         menu_ul.classList.add('mobile-ul');
     }
