@@ -916,10 +916,6 @@ video {
   transition-duration: 300ms;
 }
 
-.unset-all {
-  all: unset;
-}
-
 body {
   font-family: 'Public Sans', sans-serif;
 }
@@ -980,15 +976,11 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:hidden {
     display: none;
   }
 
-  .md\:unset-all {
-    all: unset;
+  .md\:list-none {
+    list-style-type: none;
   }
 }
