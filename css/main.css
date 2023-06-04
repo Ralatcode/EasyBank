@@ -955,6 +955,30 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:relative {
+    position: relative;
+  }
+
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
+  .md\:right-\[-20\%\] {
+    right: -20%;
+  }
+
+  .md\:top-\[-23\%\] {
+    top: -23%;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -965,6 +989,26 @@ body {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:bg-\[url\(\'\/guide\/easybank-landing-page-master\/images\/bg-intro-desktop\.svg\'\)\] {
+    background-image: url('/guide/easybank-landing-page-master/images/bg-intro-desktop.svg');
+  }
+
+  .md\:bg-none {
+    background-image: none;
+  }
+
+  .md\:bg-auto {
+    background-size: auto;
+  }
+
+  .md\:bg-right-top {
+    background-position: right top;
   }
 
   .md\:text-sm {
