@@ -660,10 +660,6 @@ video {
   gap: 1rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -676,6 +672,16 @@ video {
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+}
+
+.rounded-b-xl {
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 
 .bg-DarkBlue {
@@ -804,6 +810,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .capitalize {
@@ -982,7 +993,69 @@ body {
       max-width: 1440px;
     }
   }
+}
 
+@media (min-width: 976px) {
+  .lg\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 480px) {
+    .lg\:container {
+      max-width: 480px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .lg\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 976px) {
+    .lg\:container {
+      max-width: 976px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .lg\:container {
+      max-width: 1440px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .xl\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 480px) {
+    .xl\:container {
+      max-width: 480px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .xl\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 976px) {
+    .xl\:container {
+      max-width: 976px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .xl\:container {
+      max-width: 1440px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
   }
@@ -991,54 +1064,34 @@ body {
     position: relative;
   }
 
-  .md\:right-0 {
-    right: 0px;
-  }
-
-  .md\:top-0 {
-    top: 0px;
+  .md\:bottom-auto {
+    bottom: auto;
   }
 
   .md\:right-\[-20\%\] {
     right: -20%;
   }
 
-  .md\:top-\[-23\%\] {
-    top: -23%;
-  }
-
-  .md\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .md\:bottom-auto {
-    bottom: auto;
-  }
-
-  .md\:top-\[-40\%\] {
-    top: -40%;
+  .md\:right-\[-8\%\] {
+    right: -8%;
   }
 
   .md\:top-\[-20\%\] {
     top: -20%;
   }
 
-  .md\:right-\[-10\%\] {
-    right: -10%;
-  }
-
-  .md\:right-\[-8\%\] {
-    right: -8%;
-  }
-
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+  .md\:top-\[-45\%\] {
+    top: -45%;
   }
 
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:mt-0 {
@@ -1057,72 +1110,33 @@ body {
     display: none;
   }
 
-  .md\:min-h-\[700px\] {
-    min-height: 700px;
-  }
-
-  .md\:min-h-\[800px\] {
-    min-height: 800px;
-  }
-
   .md\:min-h-\[65vh\] {
     min-height: 65vh;
   }
 
-  .md\:min-h-\[68vh\] {
-    min-height: 68vh;
+  .md\:max-w-\[550px\] {
+    max-width: 550px;
   }
 
-  .md\:flex-row-reverse {
-    flex-direction: row-reverse;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
-  }
-
-  .md\:flex-col-reverse {
-    flex-direction: column-reverse;
+  .md\:max-w-\[400px\] {
+    max-width: 400px;
   }
 
   .md\:items-center {
     align-items: center;
   }
 
-  .md\:justify-start {
-    justify-content: flex-start;
-  }
-
-  .md\:justify-end {
-    justify-content: flex-end;
-  }
-
-  .md\:justify-evenly {
-    justify-content: space-evenly;
-  }
-
-  .md\:bg-transparent {
-    background-color: transparent;
-  }
-
-  .md\:bg-\[url\(\'\/guide\/easybank-landing-page-master\/images\/bg-intro-desktop\.svg\'\)\] {
-    background-image: url('/guide/easybank-landing-page-master/images/bg-intro-desktop.svg');
-  }
-
   .md\:bg-none {
     background-image: none;
   }
 
-  .md\:bg-auto {
-    background-size: auto;
-  }
-
-  .md\:bg-right-top {
-    background-position: right top;
-  }
-
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:text-sm {
@@ -1130,8 +1144,209 @@ body {
     line-height: 1.25rem;
   }
 
+  .md\:font-extralight {
+    font-weight: 200;
+  }
+
   .md\:text-GrayishBlue {
     --tw-text-opacity: 1;
     color: hsl(233 8% 62% / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 976px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:relative {
+    position: relative;
+  }
+
+  .lg\:bottom-auto {
+    bottom: auto;
+  }
+
+  .lg\:right-\[-20\%\] {
+    right: -20%;
+  }
+
+  .lg\:right-\[-8\%\] {
+    right: -8%;
+  }
+
+  .lg\:top-\[-20\%\] {
+    top: -20%;
+  }
+
+  .lg\:top-\[-45\%\] {
+    top: -45%;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:min-h-\[65vh\] {
+    min-height: 65vh;
+  }
+
+  .lg\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
+  .lg\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:bg-none {
+    background-image: none;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:font-extralight {
+    font-weight: 200;
+  }
+}
+
+@media (min-width: 1440px) {
+  .xl\:absolute {
+    position: absolute;
+  }
+
+  .xl\:relative {
+    position: relative;
+  }
+
+  .xl\:bottom-auto {
+    bottom: auto;
+  }
+
+  .xl\:right-\[-20\%\] {
+    right: -20%;
+  }
+
+  .xl\:right-\[-8\%\] {
+    right: -8%;
+  }
+
+  .xl\:top-\[-20\%\] {
+    top: -20%;
+  }
+
+  .xl\:top-\[-45\%\] {
+    top: -45%;
+  }
+
+  .xl\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:min-h-\[65vh\] {
+    min-height: 65vh;
+  }
+
+  .xl\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
+  .xl\:max-w-\[550px\] {
+    max-width: 550px;
+  }
+
+  .xl\:max-w-\[380px\] {
+    max-width: 380px;
+  }
+
+  .xl\:max-w-\[420px\] {
+    max-width: 420px;
+  }
+
+  .xl\:max-w-\[430px\] {
+    max-width: 430px;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
+  .xl\:bg-none {
+    background-image: none;
+  }
+
+  .xl\:text-left {
+    text-align: left;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:font-extralight {
+    font-weight: 200;
   }
 }
