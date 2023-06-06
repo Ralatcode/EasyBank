@@ -1167,6 +1167,10 @@ body {
     align-items: center;
   }
 
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
   .md\:justify-evenly {
     justify-content: space-evenly;
   }
