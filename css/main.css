@@ -1193,6 +1193,11 @@ body {
     padding-bottom: 5rem;
   }
 
+  .md\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
