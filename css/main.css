@@ -1012,50 +1012,12 @@ body {
   }
 }
 
-.hover\:bg-GrayishBlue:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(233 8% 62% / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gradient-to-b:hover {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.hover\:from-current:hover {
-  --tw-gradient-from: currentColor var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.hover\:from-inherit:hover {
-  --tw-gradient-from: inherit var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.hover\:from-LimeGreen:hover {
-  --tw-gradient-from: hsl(136, 65%, 51%) var(--tw-gradient-from-position);
-  --tw-gradient-to: hsl(136 65% 51% / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.hover\:from-LightGrayishBlue:hover {
-  --tw-gradient-from: hsl(220, 16%, 96%) var(--tw-gradient-from-position);
-  --tw-gradient-to: hsl(220 16% 96% / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.hover\:via-BrightCyan:hover {
-  --tw-gradient-to: hsl(192 70% 51% / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), hsl(192, 70%, 51%) var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
 .hover\:to-GrayishBlue:hover {
   --tw-gradient-to: hsl(233, 8%, 62%) var(--tw-gradient-to-position);
-}
-
-.hover\:to-LightGrayishBlue:hover {
-  --tw-gradient-to: hsl(220, 16%, 96%) var(--tw-gradient-to-position);
 }
 
 @media (min-width: 768px) {
@@ -1067,6 +1029,11 @@ body {
   .md\:my-16 {
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:mt-0 {
@@ -1099,6 +1066,10 @@ body {
 
   .md\:max-w-none {
     max-width: none;
+  }
+
+  .md\:max-w-\[530px\] {
+    max-width: 530px;
   }
 
   .md\:justify-between {
@@ -1256,6 +1227,10 @@ body {
 
   .xl\:max-w-\[620px\] {
     max-width: 620px;
+  }
+
+  .xl\:max-w-none {
+    max-width: none;
   }
 
   .xl\:items-center {
