@@ -1049,6 +1049,10 @@ body {
     top: -45%;
   }
 
+  .md\:right-\[-30\%\] {
+    right: -30%;
+  }
+
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1094,6 +1098,14 @@ body {
 
   .md\:min-h-\[70vh\] {
     min-height: 70vh;
+  }
+
+  .md\:min-h-\[60vh\] {
+    min-height: 60vh;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
   }
 
   .md\:max-w-\[255px\] {
@@ -1281,6 +1293,10 @@ body {
 
   .xl\:min-h-\[70vh\] {
     min-height: 70vh;
+  }
+
+  .xl\:w-full {
+    width: 100%;
   }
 
   .xl\:max-w-\[430px\] {
