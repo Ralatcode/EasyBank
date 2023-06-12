@@ -1299,6 +1299,10 @@ body {
     width: 100%;
   }
 
+  .xl\:w-auto {
+    width: auto;
+  }
+
   .xl\:max-w-\[430px\] {
     max-width: 430px;
   }
