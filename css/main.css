@@ -1053,6 +1053,14 @@ body {
     right: -30%;
   }
 
+  .md\:right-\[-35\%\] {
+    right: -35%;
+  }
+
+  .md\:right-\[-12\%\] {
+    right: -12%;
+  }
+
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
